@@ -1,7 +1,4 @@
 package com.niit.config;
-import java.sql.DriverManager;
-
-
 import java.util.Properties;
 
 import javax.sql.DataSource;
@@ -23,7 +20,7 @@ import com.niit.model.UserDetail;
 import com.niit.model.Cart;
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.ecomm.*")
+@ComponentScan("com.niit.*")
 
 public class DBConfig {
 	@Bean(name="dataSource")

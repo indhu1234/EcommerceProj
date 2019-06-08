@@ -9,6 +9,7 @@ public class GeneralTest
 	AnnotationConfigApplicationContext context  = new AnnotationConfigApplicationContext();
    context.scan("com.niit");
 	  context.refresh();
+	  
   }
 	  
 }
